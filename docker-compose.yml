@@ -1,0 +1,15 @@
+version: '3'
+
+services: 
+    php:
+        build: 
+            context: .
+            dockerfile: Dockerfile-php
+        environment: 
+            APP_ENV: dev
+        volumes: 
+            - .:/var/www/composerTest/
+        networks: 
+            - symfony
+networks: 
+    symfony:
