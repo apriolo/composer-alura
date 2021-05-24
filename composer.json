@@ -44,5 +44,7 @@
     },
     "scripts-descriptions": {
         "check" : "Roda as verificações do codigo"
-    }
+    },
+    "license": "GPL-3.0",
+    "bin": ["buscar-cursos.php"]
 }
